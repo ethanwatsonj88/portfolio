@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Navbar from '../components/navbar';
+import Title from '../components/title';
 
 export default function Home() {
   return (
@@ -9,60 +11,77 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Navbar />
+
+        <Title />
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          I am a Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting to new technology, supporting a senior developer, and improving my effectiveness for customers as well as the company.
         </p>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+        <div>
+          <div className="job">
+            <h2>Imprivata</h2>
+            <p className="job-position">Web Developer & Designer, Imprivata</p>
+            <p>January 2020-September 2020</p>
+            <div className="job-img-list">
+              <a href="/vercel.svg"><img src="/vercel.svg" className="job-img-item" /></a>
+            </div>
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape a cool looking site, and
+            I got to learn a lot of full stack development. I got exposed to a ton of technologies, especially git/github.
+            I feel like I have many more tools to make great software and websites for the future! Thanks so much Josh and team.
             </p>
-          </a>
+          </div>
         </div>
+
+        <div className="job">
+            <h2>Khoury College</h2>
+            <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
+            <p>January 2019-August 2019</p>
+
+            <div className="job-img-list">
+              <a href="/khoury/consider-this-mscs.png"><img src="/khoury/consider-this-mscs.png" className="job-img-item" /></a>
+            </div>
+            
+            <p>Some key takeaways</p>
+            <ul>
+              <li>Working collaboratively and bouncing ideas off of each other.</li>
+            </ul>
+        </div>
+
+        <div className="job">
+            <h2>5th Grade Soccer coach and league areferee</h2>
+            <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
+            <p>January 2019-August 2019</p>
+            <p>Some key takeaways</p>
+            <ul>
+              <li>Working collaboratively and bouncing ideas off of each other.</li>
+            </ul>
+        </div>
+
       </main>
+      <style jsx global>{`
+        @font-face {
+          font-family: "Volkorn";
+          src: url("Vollkorn-VariableFont_wght.ttf");
+        }
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+        }
 
-      <style jsx>{`
+        * {
+          box-sizing: border-box;
+        }
+
         .container {
           min-height: 100vh;
-          padding: 0 0.5rem;
+          padding: 0 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -70,140 +89,99 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 12vw 8vw;
+          width: 100%;
+          height: auto;
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          // background-image: url('/homebackground.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: #202020;
         }
 
         a {
           color: inherit;
           text-decoration: none;
+
+          animation-name: link-hover-out;
+          animation-duration: .2s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease-out;
         }
 
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
+        a:hover {
+          color: #e0c56e;
+
+          animation-name: link-hover;
+          animation-duration: .2s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease-out;
         }
 
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
+        @keyframes link-hover {
+          from {color: inherit;}
+          to {color: #e0c56e;}
+        }
+
+        @keyframes link-hover-out {
+          from {color: #e0c56e;}
+          to {opacity: inherit;}
         }
 
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
+          font-size: 8vw;
+          font-family: "Volkorn";
         }
 
         .description {
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 2vw;
         }
 
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
+        .navbar {
+          list-style: none;
           display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
+          flex-direction: column;
           padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-weight: 300;
         }
 
-        * {
-          box-sizing: border-box;
+        .navbar-item {
+          font-size: 4vw;
+        }
+
+        .job-img-item {
+          width: 12vw;
+          border-bottom: 3px solid #e0c56e;
+          padding: 2vw 1vw;
+          animation-name: img-hover-out;
+          animation-duration: .3s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease-out;
+        }
+
+        .job-img-item:hover {
+          animation-name: img-hover;
+          animation-duration: .3s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease-out;
+        }
+
+        @keyframes img-hover {
+          from {opacity: 100%;}
+          to {opacity: 70%;}
+        }
+
+        @keyframes img-hover-out {
+          from {opacity: 70%;}
+          to {opacity: 100%;}
         }
       `}</style>
     </div>
   )
 }
+
