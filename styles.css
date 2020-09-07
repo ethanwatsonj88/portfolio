@@ -44,7 +44,7 @@ body {
 }
 
 main {
-  padding: 12vw 8vw;
+  padding: 8vw 8vw;
   width: 100%;
   height: auto;
   flex: 1;
@@ -166,4 +166,8 @@ h2 {
 
 .slide-spacing{
   padding: 12rem 0;
+}
+
+.favicon {
+  width: 10vw;
 }
