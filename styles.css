@@ -6,8 +6,9 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  font-family: Times New Roman, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+  font-size: 2rem;
 }
 
 * {
@@ -48,7 +49,7 @@ main {
   height: auto;
   flex: 1;
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   background-size: contain;
   color: #202020;
   position: relative;
@@ -65,7 +66,7 @@ a {
 }
 
 a:hover {
-  color: #e0c56e;
+  color: #0000EE;
 
   animation-name: link-hover;
   animation-duration: .2s;
@@ -75,11 +76,11 @@ a:hover {
 
 @keyframes link-hover {
   from {color: inherit;}
-  to {color: #e0c56e;}
+  to {color: #0000EE;}
 }
 
 @keyframes link-hover-out {
-  from {color: #e0c56e;}
+  from {color: #0000EE;}
   to {opacity: inherit;}
 }
 
@@ -87,7 +88,7 @@ a:hover {
   margin: 0;
   line-height: 1.15;
   font-size: 8vw;
-  font-family: "Volkorn";
+  font-family: Helvetica;
 }
 
 .description {
@@ -148,4 +149,21 @@ a:hover {
   padding: 1rem 3rem;
   list-style-type: none;
 
+}
+
+.disclaimer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 3rem;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 3rem;
+}
+
+.slide-spacing{
+  padding: 12rem 0;
 }

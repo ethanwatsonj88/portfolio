@@ -35,11 +35,7 @@ export default function Navbar() {
           color: inherit;
           text-decoration: none;
         }
-
-        a:hover {
-          color: #e0c56e;
-        }
-
+        
         .title {
           margin: 0;
           line-height: 1.15;
@@ -62,24 +58,7 @@ export default function Navbar() {
 
         .navbar-item {
           font-size: 4vw;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        @font-face {
-          font-family: "Volkorn";
-          src: url("Vollkorn-VariableFont_wght.ttf");
-        }
-
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
+          padding: 0.5rem 0;
         }
       `}</style>
     </div>

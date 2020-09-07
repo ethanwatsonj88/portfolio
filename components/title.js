@@ -35,15 +35,11 @@ export default function Title() {
           text-decoration: none;
         }
 
-        a:hover {
-          color: #e0c56e;
-        }
-
         .title {
           margin: 0;
           line-height: 1.15;
           font-size: 8vw;
-          font-family: "Volkorn";
+          font-family: Helvetica;
         }
 
         .description {
@@ -69,23 +65,7 @@ export default function Title() {
         }
       `}</style>
 
-      <style jsx global>{`
-        @font-face {
-          font-family: "Volkorn";
-          src: url("Vollkorn-VariableFont_wght.ttf");
-        }
 
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   )
 }
