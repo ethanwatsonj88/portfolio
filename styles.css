@@ -159,6 +159,11 @@ a:hover {
   font-size: 1rem;
 }
 
+.disclaimer-left {
+  font-size: 1rem;
+  display: inline;
+}
+
 h2 {
   font-family: Helvetica;
   font-size: 3rem;
@@ -170,4 +175,16 @@ h2 {
 
 .favicon {
   width: 10vw;
+}
+
+.develop {
+  color: #eeee00;
+  background-color: black;
+  width: fit-content;
+}
+
+.design {
+  color: red;
+  background-color: black;
+  width: fit-content;
 }

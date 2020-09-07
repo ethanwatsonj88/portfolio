@@ -28,7 +28,7 @@ export default class Home extends React.Component {
 
           <Title />
 
-          <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>intentionally designed brutally digital</em></p>
+          <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>inspired by digital brutalism.</em></p>
 
           <p className="description">
             I am a Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
@@ -61,9 +61,12 @@ export default class Home extends React.Component {
                   </ul>
                 </div>
 
+
                 <div className="glide__arrows" data-glide-el="controls">
                   <button className="" data-glide-dir="<">prev</button>
                   <button className="" data-glide-dir=">">next</button>
+                  <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
                 </div>
               </div>
 
@@ -104,6 +107,7 @@ export default class Home extends React.Component {
                 <div className="glide__arrows" data-glide-el="controls">
                   <button className="" data-glide-dir="<">prev</button>
                   <button className="" data-glide-dir=">">next</button>
+                  <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
                 </div>
               </div>
               
@@ -125,53 +129,38 @@ export default class Home extends React.Component {
               <div className="job-img-list">
                 <a href="/khoury/consider-this-mscs.png"><img src="/khoury/consider-this-mscs.png" className="job-img-item" /></a>
               </div>
-              
-              <p>Some key takeaways</p>
-              <ul>
-                <li>Working collaboratively and bouncing ideas off of each other.</li>
-              </ul>
-          </div>
-
-          <div className="slide-spacing"></div>
-
-          <div className="job">
-              <h2>5th Grade Soccer coach and league areferee</h2>
-              <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
-              <p>January 2019-August 2019</p>
-              <p>Some key takeaways</p>
-              <ul>
-                <li>Working collaboratively and bouncing ideas off of each other.</li>
-              </ul>
+              <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
           </div>
 
           <div className="slide-spacing"></div>
 
           <em><ul className="software-list">
-            <li className="software-item">Javascript/ES6</li>
-            <li className="software-item">Nodejs</li>
-            <li className="software-item">Reactjs</li>
-            <li className="software-item">Sass/Scss</li>
-            <li className="software-item">MySQL/Postgres</li>
-            <li className="software-item">PHP/twig</li>
-            <li className="software-item">Drupal/CMS</li>
-            <li className="software-item">Android Studio</li>
-            <li className="software-item">DNS services, VPS/nginx/Joker/namecheap/Vercel</li>
+            <li className="software-item develop">Javascript/ES6</li>
+            <li className="software-item develop">Nodejs</li>
+            <li className="software-item develop">Reactjs</li>
+            <li className="software-item develop">Sass/Scss</li>
+            <li className="software-item develop">MySQL/Postgres</li>
+            <li className="software-item develop">PHP/twig</li>
+            <li className="software-item develop">Drupal/CMS</li>
+            <li className="software-item develop">Android Studio</li>
+            <li className="software-item develop">DNS services, VPS/nginx/Joker/namecheap/Vercel</li>
 
-            <li className="software-item">Design</li>
-            <li className="software-item">Cinema 4D</li>
-            <li className="software-item">Adobe Photoshop</li>
-            <li className="software-item">Adobe XD</li>
-            <li className="software-item">Adobe Illustrator</li>
-            <li className="software-item">Procreate</li>
-            <li className="software-item">Unity</li>
+            <li className="software-item design">Cinema 4D</li>
+            <li className="software-item design">Adobe Photoshop</li>
+            <li className="software-item design">Adobe XD</li>
+            <li className="software-item design">Adobe Illustrator</li>
+            <li className="software-item design">Procreate</li>
+            <li className="software-item design">Unity</li>
 
-            <li className="software-item">hover for more :TODO:</li>
-            <li className="software-item">AWS - RDS, S3</li>
-            <li className="software-item">Heroku</li>
-            <li className="software-item">Java</li>
-            <li className="software-item">FL Studio - Rap & Game music production</li>
+            <li className="software-item develop">AWS - RDS, S3</li>
+            <li className="software-item develop">Heroku</li>
+            <li className="software-item develop">Java</li>
+            <li className="software-item design">FL Studio - Rap & Game music production</li>
 
           </ul></em>
+
+          <div className="develop">~Develop~</div>
+          <div className="design">~Design~</div>
 
         </main>
         
