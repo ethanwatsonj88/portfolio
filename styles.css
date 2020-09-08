@@ -128,13 +128,13 @@ a:hover {
 }
 
 @keyframes img-hover {
-  from {opacity: 100%;}
-  to {opacity: 70%;}
+  from {opacity: 1;}
+  to {opacity: 0.7;}
 }
 
 @keyframes img-hover-out {
-  from {opacity: 70%;}
-  to {opacity: 100%;}
+  from {opacity: 0.7;}
+  to {opacity: 1;}
 }
 
 .software-list {
