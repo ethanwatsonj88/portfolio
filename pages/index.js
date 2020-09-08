@@ -19,7 +19,6 @@ export default class Home extends React.Component {
           <title>Ethan Watson</title>
           <link rel="icon" href="/favicon.ico" />
 
-          <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
         </Head>
 
         <main>
