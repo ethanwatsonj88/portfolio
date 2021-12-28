@@ -31,8 +31,8 @@ export default class Home extends React.Component {
           <p className="description">
             I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities.
 
-            Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
-            to new technology, supporting a senior developer, and being effective for my company and its customers.
+            {/*Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
+            to new technology, supporting a senior developer, and being effective for my company and its customers.*/}
           </p>
 
           <div className="slide-spacing"></div>
