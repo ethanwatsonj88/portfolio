@@ -37,18 +37,6 @@ export default function Navbar() {
           text-decoration: none;
         }
         
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 8vw;
-          font-family: "Volkorn";
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 2vw;
-        }
-
         .navbar {
           list-style: none;
           display: flex;
@@ -57,10 +45,6 @@ export default function Navbar() {
           font-weight: 300;
         }
 
-        .navbar-item {
-          font-size: 4vw;
-          padding: 0.5rem 0;
-        }
       `}</style>
     </div>
   )

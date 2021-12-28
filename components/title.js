@@ -35,18 +35,6 @@ export default function Title() {
           text-decoration: none;
         }
 
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 8vw;
-          font-family: Helvetica;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 2vw;
-        }
-
         .navbar {
           list-style: none;
           display: flex;
@@ -55,14 +43,6 @@ export default function Title() {
           font-weight: 300;
         }
 
-        .navbar-item {
-          font-size: 4vw;
-        }
-
-        .job-desc {
-          font-size: 5rem;
-          color: black;
-        }
       `}</style>
 
 

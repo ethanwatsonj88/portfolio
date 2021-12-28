@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar';
 import Title from '../components/title';
-import Rain from '../components/p5-rain';
 import Link from 'next/link'
 
 import Glide from '@glidejs/glide'
@@ -30,7 +29,9 @@ export default class Home extends React.Component {
           <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>inspired by digital brutalism.</em></p>
 
           <p className="description">
-            I am a Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
+            I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities.
+
+            Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
             to new technology, supporting a senior developer, and being effective for my company and its customers.
           </p>
 
