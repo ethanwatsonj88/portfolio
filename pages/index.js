@@ -12,6 +12,8 @@ export default class Home extends React.Component {
   componentDidMount() {
     new Glide('.glide').mount()
     new Glide('.fh-glide').mount()
+    new Glide('.bch-glide').mount()
+
   }
   render() {
     return (
@@ -81,7 +83,7 @@ export default class Home extends React.Component {
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
                     <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
@@ -104,14 +106,18 @@ export default class Home extends React.Component {
             </div>
 
             <p className="job-desc">
-            My internship spanned most of a CMS website redesign and migration.
-            At the end of my co-op, I had helped reshape and implement many of 
-            the components and page layouts/functionalities, held my responsibility 
-            as a team member, and trusted my coworkers so that we could release a 
-            project impossible for one person. I feel like I have many more tools 
-            to make great software and websites for the future! Thanks so much to 
-            my manager Josh and the team.
+              I created two exhibits:
             </p>
+            <ul>
+              War Pains
+              <li>Making sense of public data sets, I organized information in excel and 
+              offered a narrative: Does war impacts a country's ability to provide safe 
+              water to its citizens? I created an identity using illustrator, and crafted 
+              my own physical booklet.</li>
+              Snowing on Broad Street
+              <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
+              introduced more supporting information to present another story.</li>
+            </ul>
 
             <div className="slide-spacing"></div>
 
@@ -169,7 +175,7 @@ export default class Home extends React.Component {
             <p className="job-position">Junior Front-end Developer, UI/UX Designer</p>
             <p>January 2021-July 2021</p>
 
-            <div className="glide job-img-list">
+            <div className="bch-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
