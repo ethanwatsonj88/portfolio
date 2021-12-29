@@ -51,31 +51,23 @@ export default class Home extends React.Component {
                   <li className="glide__slide">
                     <a href="/design-synthesis/design-guide/design-guide.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
                   </li>
-                  <li className="glide__slide">
-                    <a href="/design-synthesis/new-yorkers_01.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
-                  </li>
                 </ul>
-              </div>
-
-
-              <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
-                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-
               </div>
             </div>
 
             <p className="job-desc">
-            My internship spanned most of a CMS website redesign and migration.
-            At the end of my co-op, I had helped reshape and implement many of 
-            the components and page layouts/functionalities, held my responsibility 
-            as a team member, and trusted my coworkers so that we could release a 
-            project impossible for one person. I feel like I have many more tools 
-            to make great software and websites for the future! Thanks so much to 
-            my manager Josh and the team.
+            I created an identity for Angkor, a UNESCO World Heritage Site, and brand elements for Printed, 3D, and Digital mediums. 
+            All items are included on my design guide. I created: 
             </p>
-
+            <ul>
+              Printed
+              <li>A Series of ads for the Newyorker, business card, letterhead, information sheet, 
+              envelope 10</li>
+              Digital
+              <li>Desktop and mobile website mockup, app icon</li>
+              Realized
+              <li>Two text booklet as accordion, site signage, delivery van</li>
+            </ul>
             <div className="slide-spacing"></div>
 
           </div>
@@ -102,7 +94,6 @@ export default class Home extends React.Component {
                   </li>
                 </ul>
               </div>
-
 
               <div className="glide__arrows" data-glide-el="controls">
                 <button className="" data-glide-dir="<">prev</button>
@@ -316,22 +307,26 @@ export default class Home extends React.Component {
           <div className="slide-spacing"></div>
 
           <em><ul className="software-list">
+
+            <li className="software-item design">Adobe InDesign</li>
+            <li className="software-item design">Cinema 4D</li>
+            <li className="software-item design">Adobe Photoshop</li>
+            <li className="software-item design">Figma</li>
+            <li className="software-item design">Adobe XD</li>
+            <li className="software-item design">Adobe Illustrator</li>
+            <li className="software-item design">Procreate</li>
+            <li className="software-item design">Unity</li>
+
             <li className="software-item develop">Javascript/ES6</li>
             <li className="software-item develop">Nodejs</li>
             <li className="software-item develop">Reactjs</li>
             <li className="software-item develop">Sass/Scss</li>
+            <li className="software-item develop">Patternlab & Storybook</li>
             <li className="software-item develop">MySQL/Postgres</li>
             <li className="software-item develop">PHP/twig</li>
             <li className="software-item develop">Drupal/CMS</li>
             <li className="software-item develop">Android Studio</li>
             <li className="software-item develop">DNS services, VPS/nginx/Joker/namecheap/Vercel</li>
-
-            <li className="software-item design">Cinema 4D</li>
-            <li className="software-item design">Adobe Photoshop</li>
-            <li className="software-item design">Adobe XD</li>
-            <li className="software-item design">Adobe Illustrator</li>
-            <li className="software-item design">Procreate</li>
-            <li className="software-item design">Unity</li>
 
             <li className="software-item develop">AWS - RDS, S3</li>
             <li className="software-item develop">Heroku</li>
