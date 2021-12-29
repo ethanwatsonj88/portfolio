@@ -3,7 +3,6 @@ import Head from 'next/head'
 export default function Navbar() {
   return (
     <div>
-      <img className="favicon" src="/favicon.ico"></img>
       <ul className="navbar">
           <li className="navbar-item"><a href="/resume-ethan-watson.pdf">Resume</a></li>
           <li className="navbar-item"><a href="/contact">Contact</a></li>

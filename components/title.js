@@ -4,7 +4,7 @@ export default function Title() {
   return (
     <div>
         <h1 className="title">
-          <a href="/">ethan watson</a>
+          <a href="/">Ethan Watson</a>
         </h1>
 
       <style jsx>{`

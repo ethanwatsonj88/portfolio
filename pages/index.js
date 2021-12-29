@@ -37,49 +37,228 @@ export default class Home extends React.Component {
 
           <div className="slide-spacing"></div>
 
-          <div>
-            <div className="job">
-              <h2>Imprivata</h2>
-              <p className="job-position">Web Developer & Designer, Imprivata</p>
-              <p>January 2020-September 2020</p>
+          {/*if course class, its a school class. eventually toggle these posts*/}
+          <div className="job course">
+            <h2>Class, Graphic Design Synthesis</h2>
+            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p>January 2021-July 2021</p>
 
-              <div className="glide job-img-list">
-                <div className="glide__track" data-glide-el="track">
-                  <ul className="glide__slides">
-                    <li className="glide__slide">
-                      <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
-                    </li>
-                    <li className="glide__slide">
-                      <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
-                    </li>
-                    <li className="glide__slide">
-                      <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
-                    </li>
-                    <li className="glide__slide">
-                      <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
-                    </li>
-                  </ul>
-                </div>
-
-
-                <div className="glide__arrows" data-glide-el="controls">
-                  <button className="" data-glide-dir="<">prev</button>
-                  <button className="" data-glide-dir=">">next</button>
-                  <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-
-                </div>
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/design-synthesis/design-guide/design-guide.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/design-synthesis/new-yorkers_01.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
               </div>
 
-              <p className="job-desc">
-              My internship spanned most of a CMS website redesign and migration.
-              At the end of my co-op, I had helped reshape and implement many of 
-              the components and page layouts/functionalities, held my responsibility 
-              as a team member, and trusted my coworkers so that we could release a 
-              project impossible for one person. I feel like I have many more tools 
-              to make great software and websites for the future! Thanks so much to 
-              my manager Josh and the team.
-              </p>
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
             </div>
+
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team.
+            </p>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
+          <div className="job course">
+            <h2>Information Design <span className="class-type">&nbsp;Class</span></h2>
+            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p>January 2021-July 2021</p>
+
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team.
+            </p>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
+          <div className="job course">
+            <h2>Class, Typography 3</h2>
+            <p className="job-position">Construct a text typeface</p>
+            <p>January 2021-July 2021</p>
+
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team.
+            </p>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
+
+          <div className="job">
+            <h2>Boston Children's Hospital</h2>
+            <p className="job-position">Junior Front-end Developer, UI/UX Designer</p>
+            <p>January 2021-July 2021</p>
+
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team.
+            </p>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
+
+          <div className="job">
+            <h2>Imprivata</h2>
+            <p className="job-position">Web Developer & Designer, Imprivata</p>
+            <p>January 2020-September 2020</p>
+
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+            My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team.
+            </p>
           </div>
 
           <div className="slide-spacing"></div>
