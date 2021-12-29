@@ -52,7 +52,7 @@ body {
 }
 
 main {
-  padding: 8vw 8vw;
+  padding: 0 2rem 2rem 2rem;
   width: 100%;
   max-width: 1200px;
   height: auto;
@@ -143,10 +143,10 @@ a:hover {
 }
 
 .job-img-item {
-  width: 12vw;
-  padding: 2vw 1vw;
+  width: 24rem;
+  padding: 2rem 1rem;
   object-fit: contain;
-  max-height: 12rem;
+  max-height: 18rem;
   vertical-align: middle;
   animation-name: img-hover-out;
   animation-duration: .3s;
@@ -186,10 +186,9 @@ a:hover {
 }
 
 .disclaimer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding-right: 8rem;
+  padding-right: 0;
+  padding-bottom: 8rem;
+  text-align: right;
   font-size: 1rem;
 }
 
