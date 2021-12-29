@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Navbar from '../components/navbar';
 import Title from '../components/title';
 import Link from 'next/link'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import Glide from '@glidejs/glide'
 
