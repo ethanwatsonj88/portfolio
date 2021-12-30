@@ -88,13 +88,13 @@ export default class Home extends React.Component {
                     <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_02.jpg" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_13.jpg" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                    <a href="/information-design/ethan-watson_snowing-on-broadstreet.pdf"><img src="/information-design/ethan-watson_snowing-on-broadstreet.jpg" className="job-img-item" /></a>
                   </li>
                 </ul>
               </div>
@@ -111,12 +111,13 @@ export default class Home extends React.Component {
               I created two exhibits:
             </p>
             <ul>
-              War Pains
+              <span className="light-cyan">War Pains</span>
               <li>Making sense of public data sets, I organized information in excel and 
               offered a narrative: Does war impacts a country's ability to provide safe 
               water to its citizens? I created an identity using illustrator, and crafted 
               my own physical booklet.</li>
-              Snowing on Broad Street
+              <br />
+              <span className="light-cyan">Snowing on Broad Street</span>
               <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
               introduced more supporting information to present another story.</li>
             </ul>

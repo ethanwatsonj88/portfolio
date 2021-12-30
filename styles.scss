@@ -19,9 +19,13 @@ body {
   font-size: 1.125rem;
 }
 
-p {
+p, li {
   letter-spacing: .02rem;
   line-height: 140%;
+}
+
+.light-cyan {
+  color: #1bcef8;
 }
 
 * {
