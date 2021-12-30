@@ -11,9 +11,11 @@ import Glide from '@glidejs/glide'
 export default class Home extends React.Component {
   componentDidMount() {
     new Glide('.glide').mount()
+    new Glide('.imprivata-glide').mount()
     new Glide('.fh-glide').mount()
     new Glide('.bch-glide').mount()
-
+    new Glide('.id-glide').mount()
+    new Glide('.type3-glide').mount()
   }
   render() {
     return (
@@ -79,7 +81,7 @@ export default class Home extends React.Component {
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
             <p>January 2021-July 2021</p>
 
-            <div className="glide job-img-list">
+            <div className="id-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
@@ -128,7 +130,7 @@ export default class Home extends React.Component {
             <p className="job-position">Construct a text typeface</p>
             <p>January 2021-July 2021</p>
 
-            <div className="glide job-img-list">
+            <div className="type3-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
@@ -222,7 +224,7 @@ export default class Home extends React.Component {
             <p className="job-position">Web Developer & Designer, Imprivata</p>
             <p>January 2020-September 2020</p>
 
-            <div className="glide job-img-list">
+            <div className="imprivata-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">

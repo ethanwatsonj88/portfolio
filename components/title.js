@@ -40,7 +40,6 @@ export default function Title() {
           display: flex;
           flex-direction: column;
           padding: 0;
-          font-weight: 300;
         }
 
       `}</style>
