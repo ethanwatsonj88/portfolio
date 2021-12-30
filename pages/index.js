@@ -135,16 +135,14 @@ export default class Home extends React.Component {
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                    <a href="/type3/broadsideMariel.pdf">
+                      <img src="/type3/broadsideMariel.jpg" 
+                      className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                    <a href="/type3/not-the-nyt-mariel.pdf">
+                      <img src="/type3/not-the-nyt-mariel.jpg" 
+                      className="job-img-item" /></a>
                   </li>
                 </ul>
               </div>
@@ -159,13 +157,11 @@ export default class Home extends React.Component {
             </div>
 
             <p className="job-desc">
-            My internship spanned most of a CMS website redesign and migration.
-            At the end of my co-op, I had helped reshape and implement many of 
-            the components and page layouts/functionalities, held my responsibility 
-            as a team member, and trusted my coworkers so that we could release a 
-            project impossible for one person. I feel like I have many more tools 
-            to make great software and websites for the future! Thanks so much to 
-            my manager Josh and the team.
+            I created Mariel, a typeface suitable for body text. I was inspired 
+            by typefaces like Garamond, Sabon, Baskerville, and Jenson. I used 
+            Glyphs mini and Adobe Illustrator to make one weight of uppercase 
+            and lowercase letterforms, as well as punctuation, numerals, and 
+            lowercase numerals.
             </p>
 
             <div className="slide-spacing"></div>
