@@ -20,9 +20,21 @@ export default function Contact() {
           <Title />
 
           <p className="description">
-          901-609-9865<br />
-          ethanwatsonj88@gmail.com<br />
-          watson.et@northeastern.edu<br />
+          901-609-9865
+          ethanwatsonj88@gmail.com
+          watson.et@northeastern.edu
+          </p>
+
+          <p className="description">
+          901-609-9865
+          ethanwatsonj88@gmail.com
+          watson.et@northeastern.edu
+          </p>
+
+          <p className="description">
+          901-609-9865
+          ethanwatsonj88@gmail.com
+          watson.et@northeastern.edu
           </p>
 
         </main>
