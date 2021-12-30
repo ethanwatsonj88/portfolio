@@ -47,7 +47,7 @@ export default class Home extends React.Component {
           <div className="job course">
             <h2>Class, Graphic Design Synthesis</h2>
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
-            <p>January 2021-July 2021</p>
+            <p>January 2021–July 2021</p>
 
             <div className="glide job-img-list">
               <div className="glide__track" data-glide-el="track">

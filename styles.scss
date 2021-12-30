@@ -17,6 +17,8 @@ body {
   font-family: Univers, sans-serif, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   font-size: 1.125rem;
+  letter-spacing: .02rem;
+  line-height: 140%;
 }
 
 * {
@@ -207,7 +209,7 @@ h2 {
   border-top: .3rem solid #1b00f8;
   width: fit-content;
   font-weight: inherit;
-  padding-top: .4rem;
+  padding-top: 1rem;
 }
 
 .slide-spacing{
