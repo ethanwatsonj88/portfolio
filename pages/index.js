@@ -77,7 +77,7 @@ export default class Home extends React.Component {
           </div>
 
           <div className="job course">
-            <h2>Information Design <span className="class-type">&nbsp;Class</span></h2>
+            <h2>Information Design <span className="class-type">Class</span></h2>
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
             <p>January 2021-July 2021</p>
 
