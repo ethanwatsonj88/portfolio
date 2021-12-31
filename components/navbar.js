@@ -43,6 +43,10 @@ export default function Navbar() {
           padding: 0;
         }
 
+        .navbar li {
+          font-family: Univers;
+        }
+
       `}</style>
     </div>
   )

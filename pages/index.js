@@ -23,6 +23,7 @@ export default class Home extends React.Component {
         <Head>
           <title>Ethan Watson</title>
           <link rel="icon" href="/favicon.ico" />
+          <link rel="stylesheet" href="https://use.typekit.net/ntt5nzc.css" />
 
         </Head>
 
@@ -64,12 +65,14 @@ export default class Home extends React.Component {
             All items are included on my design guide. I created: 
             </p>
             <ul>
-              Printed
+              <span className="light-cyan">Printed</span>
               <li>A Series of ads for the Newyorker, business card, letterhead, information sheet, 
               envelope 10</li>
-              Digital
+              <br />
+              <span className="light-cyan">Digital</span>
               <li>Desktop and mobile website mockup, app icon</li>
-              Realized
+              <br />
+              <span className="light-cyan">Realized</span>
               <li>Two text booklet as accordion, site signage, delivery van</li>
             </ul>
             <div className="slide-spacing"></div>
@@ -202,13 +205,11 @@ export default class Home extends React.Component {
             </div>
 
             <p className="job-desc">
-            My internship spanned most of a CMS website redesign and migration.
-            At the end of my co-op, I had helped reshape and implement many of 
-            the components and page layouts/functionalities, held my responsibility 
-            as a team member, and trusted my coworkers so that we could release a 
-            project impossible for one person. I feel like I have many more tools 
-            to make great software and websites for the future! Thanks so much to 
-            my manager Josh and the team.
+            I created the front-end architecture, coding, & visual redesign of a 
+            react application. My team helped every week, and I had to keep in 
+            mind the mobile version of the web app I was developing and designing.
+            I improved and tested multiple SCSS structures and React components.
+            I designed and prototyped mockups in Figma for two teams and presented to clients.
             </p>
 
             <div className="slide-spacing"></div>
