@@ -46,7 +46,7 @@ export default class Home extends React.Component {
 
           {/*if course class, its a school class. eventually toggle these posts*/}
           <div className="job course">
-            <h2>Class, Graphic Design Synthesis</h2>
+            <h2>Graphic Design Synthesis <span className="class-type">Class</span></h2>
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
             <p>January 2021–July 2021</p>
 
@@ -82,7 +82,7 @@ export default class Home extends React.Component {
           <div className="job course">
             <h2>Information Design <span className="class-type">Class</span></h2>
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
-            <p>January 2021-July 2021</p>
+            <p>January 2021–July 2021</p>
 
             <div className="id-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -132,7 +132,7 @@ export default class Home extends React.Component {
           <div className="job course">
             <h2>Class, Typography 3</h2>
             <p className="job-position">Construct a text typeface</p>
-            <p>January 2021-July 2021</p>
+            <p>January 2021–July 2021</p>
 
             <div className="type3-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -175,7 +175,7 @@ export default class Home extends React.Component {
           <div className="job">
             <h2>Boston Children's Hospital</h2>
             <p className="job-position">Junior Front-end Developer, UI/UX Designer</p>
-            <p>January 2021-July 2021</p>
+            <p>January 2021–July 2021</p>
 
             <div className="bch-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -220,7 +220,7 @@ export default class Home extends React.Component {
           <div className="job">
             <h2>Imprivata</h2>
             <p className="job-position">Web Developer & Designer, Imprivata</p>
-            <p>January 2020-September 2020</p>
+            <p>January 2020–September 2020</p>
 
             <div className="imprivata-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -265,7 +265,7 @@ export default class Home extends React.Component {
           <div className="job">
               <h2>FHMemphis.com</h2>
               <p>Web Developer</p>
-              <p>September 2019-September 2020</p>
+              <p>September 2019–September 2020</p>
 
               <div className="fh-glide job-img-list">
                 <div className="glide__track" data-glide-el="track">
@@ -302,7 +302,7 @@ export default class Home extends React.Component {
           <div className="job">
               <h2>Khoury College</h2>
               <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
-              <p>January 2019-August 2019</p>
+              <p>January 2019–August 2019</p>
 
               <div className="job-img-list">
                 <a href="/khoury/consider-this-mscs.png"><img src="/khoury/consider-this-mscs.png" className="job-img-item" /></a>
