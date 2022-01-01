@@ -212,6 +212,16 @@ export default class Home extends React.Component {
                     <img src="/bch/some-example-prototypes/multi-select-custom-react-component-helped.png" 
                     className="job-img-item" /></a>
                   </li>
+                  <li className="glide__slide">
+                    <a href="/bch/some-example-prototypes/komal-dev-bug-support.png">
+                    <img src="/bch/some-example-prototypes/komal-dev-bug-support.png" 
+                    className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/bch/some-example-prototypes/tabloid size-also-mobile-responsive.png">
+                    <img src="/bch/some-example-prototypes/tabloid size-also-mobile-responsive.png" 
+                    className="job-img-item" /></a>
+                  </li>
                 </ul>
               </div>
 
@@ -335,19 +345,16 @@ export default class Home extends React.Component {
           <em><ul className="software-list">
 
             <li className="software-item design">Adobe InDesign</li>
-            <li className="software-item design">Cinema 4D</li>
-            <li className="software-item design">Adobe Photoshop</li>
             <li className="software-item design">Figma</li>
-            <li className="software-item design">Adobe XD</li>
             <li className="software-item design">Adobe Illustrator</li>
-            <li className="software-item design">Procreate</li>
-            <li className="software-item design">Unity</li>
+            <li className="software-item design">Adobe Photoshop</li>
+            <li className="software-item design">Adobe XD</li>
 
-            <li className="software-item develop">Javascript/ES6</li>
+            <li className="software-item develop">Javascript ES6</li>
+            <li className="software-item develop">Patternlab & Storybook</li>
             <li className="software-item develop">Nodejs</li>
             <li className="software-item develop">Reactjs</li>
             <li className="software-item develop">Sass/Scss</li>
-            <li className="software-item develop">Patternlab & Storybook</li>
             <li className="software-item develop">MySQL/Postgres</li>
             <li className="software-item develop">PHP/twig</li>
             <li className="software-item develop">Drupal/CMS</li>
@@ -357,6 +364,9 @@ export default class Home extends React.Component {
             <li className="software-item develop">AWS - RDS, S3</li>
             <li className="software-item develop">Heroku</li>
             <li className="software-item develop">Java</li>
+            <li className="software-item design">Procreate</li>
+            <li className="software-item design">Cinema 4D</li>
+            <li className="software-item design">Unity</li>
             <li className="software-item design">FL Studio - Rap & Game music production</li>
 
           </ul></em>
