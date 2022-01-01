@@ -4,7 +4,8 @@ export default function Navbar() {
   return (
     <div>
       <ul className="navbar">
-          <li className="navbar-item"><a href="/resume-ethan-watson.pdf">Resume</a></li>
+          <li className="navbar-item"><a href="/resume-ethan-watson.pdf" 
+          target="_blank">Resume</a></li>
           <li className="navbar-item"><a href="/contact">Contact</a></li>
         </ul>
 

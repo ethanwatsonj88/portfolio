@@ -181,16 +181,36 @@ export default class Home extends React.Component {
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                    <a href="/bch/1/second-run_never-coded-but-can.png">
+                    <img src="/bch/1/second-run_never-coded-but-can.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                    <a href="/bch/1/first-run_i-coded.png">
+                    <img src="/bch/1/first-run_i-coded.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                    <a href="/bch/1/old-before-me.png">
+                    <img src="/bch/1/old-before-me.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                    <a href="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png">
+                    <img src="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png" 
+                    className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/bch/some-example-prototypes/custom-react-component-little js.png">
+                    <img src="/bch/some-example-prototypes/custom-react-component-little js.png" 
+                    className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/bch/some-example-prototypes/expirementing.png">
+                    <img src="/bch/some-example-prototypes/expirementing.png" 
+                    className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/bch/some-example-prototypes/multi-select-custom-react-component-helped.png">
+                    <img src="/bch/some-example-prototypes/multi-select-custom-react-component-helped.png" 
+                    className="job-img-item" /></a>
                   </li>
                 </ul>
               </div>
