@@ -44,138 +44,10 @@ export default class Home extends React.Component {
 
           <div className="slide-spacing"></div>
 
-          {/*if course class, its a school class. eventually toggle these posts*/}
-          <div className="job course">
-            <h2>Graphic Design Synthesis <span className="class-type">Class</span></h2>
-            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
-            <p>January 2021–July 2021</p>
-
-            <div className="glide job-img-list">
-              <div className="glide__track" data-glide-el="track">
-                <ul className="glide__slides">
-                  <li className="glide__slide">
-                    <a href="/design-synthesis/design-guide/design-guide.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <p className="job-desc">
-            I created an identity for Angkor, a UNESCO World Heritage Site, and brand elements for Printed, 3D, and Digital mediums. 
-            All items are included on my design guide. I created: 
-            </p>
-            <ul>
-              <span className="light-cyan">Printed</span>
-              <li>A Series of ads for the Newyorker, business card, letterhead, information sheet, 
-              envelope 10</li>
-              <br />
-              <span className="light-cyan">Digital</span>
-              <li>Desktop and mobile website mockup, app icon</li>
-              <br />
-              <span className="light-cyan">Realized</span>
-              <li>Two text booklet as accordion, site signage, delivery van</li>
-            </ul>
-            <div className="slide-spacing"></div>
-
-          </div>
-
-          <div className="job course">
-            <h2>Information Design <span className="class-type">Class</span></h2>
-            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
-            <p>January 2021–July 2021</p>
-
-            <div className="id-glide job-img-list">
-              <div className="glide__track" data-glide-el="track">
-                <ul className="glide__slides">
-                  <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_02.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_13.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_snowing-on-broadstreet.pdf"><img src="/information-design/ethan-watson_snowing-on-broadstreet.jpg" className="job-img-item" /></a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
-                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-
-              </div>
-            </div>
-
-            <p className="job-desc">
-              I created two exhibits:
-            </p>
-            <ul>
-              <span className="light-cyan">War Pains</span>
-              <li>Making sense of public data sets, I organized information in excel and 
-              offered a narrative: Does war impacts a country's ability to provide safe 
-              water to its citizens? I created an identity using illustrator, and crafted 
-              my own physical booklet.</li>
-              <br />
-              <span className="light-cyan">Snowing on Broad Street</span>
-              <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
-              introduced more supporting information to present another story.</li>
-            </ul>
-
-            <div className="slide-spacing"></div>
-
-          </div>
-
-          <div className="job course">
-            <h2>Class, Typography 3</h2>
-            <p className="job-position">Construct a text typeface</p>
-            <p>January 2021–July 2021</p>
-
-            <div className="type3-glide job-img-list">
-              <div className="glide__track" data-glide-el="track">
-                <ul className="glide__slides">
-                  <li className="glide__slide">
-                    <a href="/type3/broadsideMariel.pdf">
-                      <img src="/type3/broadsideMariel.jpg" 
-                      className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/type3/not-the-nyt-mariel.pdf">
-                      <img src="/type3/not-the-nyt-mariel.jpg" 
-                      className="job-img-item" /></a>
-                  </li>
-                </ul>
-              </div>
-
-
-              <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
-                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-
-              </div>
-            </div>
-
-            <p className="job-desc">
-            I created Mariel, a typeface suitable for body text. I was inspired 
-            by typefaces like Garamond, Sabon, Baskerville, and Jenson. I used 
-            Glyphs mini and Adobe Illustrator to make one weight of uppercase 
-            and lowercase letterforms, as well as punctuation, numerals, and 
-            lowercase numerals.
-            </p>
-
-            <div className="slide-spacing"></div>
-
-          </div>
-
-
           <div className="job">
             <h2>Boston Children's Hospital</h2>
             <p className="job-position">Junior Front-end Developer, UI/UX Designer</p>
-            <p>January 2021–July 2021</p>
+            <p>January 2021 – July 2021</p>
 
             <div className="bch-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -236,21 +108,148 @@ export default class Home extends React.Component {
 
             <p className="job-desc">
             I created the front-end architecture, coding, & visual redesign of a 
-            react application. My team helped every week, and I had to keep in 
-            mind the mobile version of the web app I was developing and designing.
-            I improved and tested multiple SCSS structures and React components.
-            I designed and prototyped mockups in Figma for two teams and presented to clients.
+            public facing react application. My team helped every week, and I 
+            had to keep in mind the mobile version of the web app I was 
+            developing and designing. I improved and tested multiple SCSS 
+            structures, React components, and Angular templates. I designed and 
+            prototyped mockups in Figma for two teams and presented to clients.
             </p>
 
             <div className="slide-spacing"></div>
 
           </div>
 
+          {/*if course class, its a school class. eventually toggle these posts*/}
+          <div className="job course">
+            <h2>Graphic Design Synthesis <span className="class-type">Class</span></h2>
+            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p>September 2021 – December 2021</p>
+
+            <div className="glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/design-synthesis/design-guide/design-guide.pdf"><img src="/design-synthesis/design-guide/design-guide.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="job-desc">
+            I created an identity for Angkor, a UNESCO World Heritage Site, and brand elements for Printed, 3D, and Digital mediums. 
+            All items are included on my design guide. I created: 
+            </p>
+            <ul>
+              <span className="light-cyan">Printed</span>
+              <li>A Series of ads for the Newyorker, business card, letterhead, information sheet, 
+              envelope 10</li>
+              <br />
+              <span className="light-cyan">Digital</span>
+              <li>Desktop and mobile website mockup, app icon</li>
+              <br />
+              <span className="light-cyan">Realized</span>
+              <li>Two text booklet as accordion, site signage, delivery van</li>
+            </ul>
+            <div className="slide-spacing"></div>
+
+          </div>
+
+          <div className="job course">
+            <h2>Information Design <span className="class-type">Class</span></h2>
+            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p>September 2021 – December 2021</p>
+
+            <div className="id-glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_02.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_13.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_snowing-on-broadstreet.pdf"><img src="/information-design/ethan-watson_snowing-on-broadstreet.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+              I created two exhibits:
+            </p>
+            <ul>
+              <span className="light-cyan">War Pains</span>
+              <li>Making sense of public data sets, I organized information in excel and 
+              offered a narrative: Does war impacts a country's ability to provide safe 
+              water to its citizens? I created an identity using illustrator, and crafted 
+              my own physical booklet.</li>
+              <br />
+              <span className="light-cyan">Snowing on Broad Street</span>
+              <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
+              introduced more supporting information to present another story.</li>
+            </ul>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
+          <div className="job course">
+            <h2>Typography 3 <span className="class-type">Class</span></h2>
+            <p className="job-position">Construct a text typeface</p>
+            <p>September 2021 – December 2021</p>
+
+            <div className="type3-glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/type3/broadsideMariel.pdf">
+                      <img src="/type3/broadsideMariel.jpg" 
+                      className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/type3/not-the-nyt-mariel.pdf">
+                      <img src="/type3/not-the-nyt-mariel.jpg" 
+                      className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+            I created Mariel, a typeface suitable for body text. I was inspired 
+            by typefaces like Garamond, Sabon, Baskerville, and Jenson. I used 
+            Glyphs mini and Adobe Illustrator to make one weight of uppercase 
+            and lowercase letterforms, as well as punctuation, numerals, and 
+            lowercase numerals.
+            </p>
+
+            <div className="slide-spacing"></div>
+
+          </div>
 
           <div className="job">
             <h2>Imprivata</h2>
             <p className="job-position">Web Developer & Designer, Imprivata</p>
-            <p>January 2020–September 2020</p>
+            <p>January 2020 – September 2020</p>
 
             <div className="imprivata-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -295,7 +294,7 @@ export default class Home extends React.Component {
           <div className="job">
               <h2>FHMemphis.com</h2>
               <p>Web Developer</p>
-              <p>September 2019–September 2020</p>
+              <p>September 2019 – September 2020</p>
 
               <div className="fh-glide job-img-list">
                 <div className="glide__track" data-glide-el="track">
@@ -332,7 +331,7 @@ export default class Home extends React.Component {
           <div className="job">
               <h2>Khoury College</h2>
               <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
-              <p>January 2019–August 2019</p>
+              <p>January 2019 – August 2019</p>
 
               <div className="job-img-list">
                 <a href="/khoury/consider-this-mscs.png"><img src="/khoury/consider-this-mscs.png" className="job-img-item" /></a>

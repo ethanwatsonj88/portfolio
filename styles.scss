@@ -155,8 +155,8 @@ a:hover {
 }
 
 .job-img-item {
-  width: 24rem;
-  padding: 2rem 1rem;
+  width: auto;
+  padding: 1rem 0rem;
   object-fit: contain;
   max-height: 18rem;
   vertical-align: middle;
@@ -186,13 +186,14 @@ a:hover {
 .software-list {
   display: flex;
   flex-direction: row;
+  padding: 0;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .software-item {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem 1rem 0;
   list-style-type: none;
 
 }
@@ -201,6 +202,9 @@ a:hover {
   padding-right: 0;
   padding-bottom: 8rem;
   text-align: right;
+  font-family: linotype-sabon,sans-serif;
+  font-weight: 400;
+  font-style: italic;
   font-size: 1.125rem;
 }
 
@@ -223,7 +227,7 @@ h2 {
 }
 
 .slide-spacing{
-  padding: 12rem 0;
+  padding: 8rem 0;
 }
 
 .favicon {
@@ -231,13 +235,17 @@ h2 {
 }
 
 .develop {
-  color: white;
-  background-color: #1b00f8;
+  font-family: linotype-sabon;
+  font-weight: 400;
+  font-style: normal;
+  color: #1b00f8;
   width: fit-content;
 }
 
 .design {
-  color: white;
-  background-color: black;
+  font-family: linotype-sabon;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
   width: fit-content;
 }

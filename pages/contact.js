@@ -8,6 +8,7 @@ export default function Contact() {
         <Head>
           <title>Ethan Watson</title>
           <link rel="icon" href="/favicon.ico" />
+          <link rel="stylesheet" href="https://use.typekit.net/ntt5nzc.css"/>
 
         </Head>
 
