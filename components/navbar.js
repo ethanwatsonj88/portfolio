@@ -6,6 +6,8 @@ export default function Navbar() {
       <ul className="navbar">
           <li className="navbar-item"><a href="/resume-ethan-watson.pdf" 
           target="_blank">Resume</a></li>
+          <li className="navbar-item"><a href="https://www.behance.net/ethanj88" 
+          target="_blank">More Design</a></li>
           <li className="navbar-item"><a href="/contact">Contact</a></li>
         </ul>
 

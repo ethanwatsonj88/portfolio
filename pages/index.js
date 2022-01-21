@@ -328,6 +328,56 @@ export default class Home extends React.Component {
 
           <div className="slide-spacing"></div>
 
+          <div className="job course">
+            <h2>Typography 2<span className="class-type">Class</span></h2>
+            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p>July 2021 – September 2021</p>
+
+            <div className="id-glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_02.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_13.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/information-design/ethan-watson_snowing-on-broadstreet.pdf"><img src="/information-design/ethan-watson_snowing-on-broadstreet.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+              I created two exhibits:
+            </p>
+            <ul>
+              <span className="light-cyan">War Pains</span>
+              <li>Making sense of public data sets, I organized information in excel and 
+              offered a narrative: Does war impacts a country's ability to provide safe 
+              water to its citizens? I created an identity using illustrator, and crafted 
+              my own physical booklet.</li>
+              <br />
+              <span className="light-cyan">Snowing on Broad Street</span>
+              <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
+              introduced more supporting information to present another story.</li>
+            </ul>
+
+            <div className="slide-spacing"></div>
+
+          </div>
+
           <div className="job">
               <h2>Khoury College</h2>
               <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
