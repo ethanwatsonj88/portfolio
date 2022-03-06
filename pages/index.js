@@ -45,8 +45,7 @@ export default class Home extends React.Component {
           <div className="slide-spacing"></div>
 
           <div className="job">
-            <h2>Boston Children's Hospital</h2>
-            <p className="job-position">Junior Front-end Developer, UI/UX Designer</p>
+            <h2><a href="/bch">UI/UX Designer, Boston Children's Hospital [More]</a></h2>
             <p>January 2021 – July 2021</p>
 
             <div className="bch-glide job-img-list">
@@ -107,12 +106,20 @@ export default class Home extends React.Component {
             </div>
 
             <p className="job-desc">
-            I created the front-end architecture, coding, & visual redesign of a 
+              I redesigned a web application that had 14 unique forms and a user 
+              profile (login, logout, account) flow. I constantly considered responsive web design, typography, 
+              layout, developer workload, designing components, accessibility, and my audience while 
+              making design decisions. I conducted research to inform some of my design decisions.
+              <br />
+              I supported multiple other projects by making graphic assets such as high fidelity prototypes, icons, splash screens, 
+              visual direction, and user experiences. I presented my work and design decisions to my clients, team, and developers.
+
+            {/* I created the front-end architecture, coding, & visual redesign of a 
             public facing react application. My team helped every week, and I 
             had to keep in mind the mobile version of the web app I was 
             developing and designing. I improved and tested multiple SCSS 
             structures, React components, and Angular templates. I designed and 
-            prototyped mockups in Figma for two teams and presented to clients.
+            prototyped mockups in Figma for two teams and presented to clients. */}
             </p>
 
             <div className="slide-spacing"></div>

@@ -4,6 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <ul className="navbar">
+          <li className="navbar-item title"><a href="/">Ethan Watson</a></li>
           <li className="navbar-item"><a href="/resume-ethan-watson.pdf" 
           target="_blank">Resume</a></li>
           <li className="navbar-item"><a href="https://www.behance.net/ethanj88" 

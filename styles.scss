@@ -154,8 +154,13 @@ a:hover {
   font-size: 2.4rem;
 }
 
+.job-img-header {
+  width: 100%;
+}
+
 .job-img-item {
   width: auto;
+  max-width: 100%;
   padding: 1rem 0rem;
   object-fit: contain;
   max-height: 18rem;
@@ -164,6 +169,11 @@ a:hover {
   animation-duration: .3s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
+}
+
+.job-img-item.sub-page {
+  // min-width: 100%;
+  max-height: 36rem;
 }
 
 .job-img-item:hover {
@@ -181,6 +191,12 @@ a:hover {
 @keyframes img-hover-out {
   from {opacity: 0.7;}
   to {opacity: 1;}
+}
+
+img { 
+  .img-block {
+    max-width: 100%;
+  }
 }
 
 .software-list {
