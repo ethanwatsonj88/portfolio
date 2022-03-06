@@ -37,6 +37,10 @@ export default function BCH() {
               <img src="/bch/1/first-run_i-coded.png" className="job-img-item sub-page" /></a>
             </div>
 
+            <ul className='case-study-sub'>
+              <span className="light-cyan">Single Column Form UX Research</span>
+            </ul>
+
             <p className="job-desc">
               One implementation I presented to my team and implemented was single column forms and adjusting typography for input fields. 
               The original form was two column on desktop, and switched to one column at a breakpoint. 
@@ -56,6 +60,11 @@ export default function BCH() {
               <a href="/bch/1/input-research.png">
               <img src="/bch/1/input-research.png" className="job-img-item" /></a>
             </div>
+
+            <ul className='case-study-sub'>
+              <span className="light-cyan">Input Field UX Research + Type Hierarchy</span>
+            </ul>
+
             <p>
               I also decided to adjust the hierarchy of the page, especially input fields. I chose to keep 
               input field text top aligned, or above the input field, because this had the quickest completion 
@@ -77,6 +86,10 @@ export default function BCH() {
               <a href="/bch/1/old-sidebar.png">
               <img src="/bch/1/old-sidebar.png" className="job-img-item" /></a>
             </div>
+
+            <ul className='case-study-sub'>
+              <span className="light-cyan">Complex Component Design Decisions</span>
+            </ul>
 
             <p>
               I redesigned the side status bar, considering value, hierarchy, and developer workload. The sidebar was not the main focus of the pages, so I got rid of the saturated background to signify that. 
@@ -100,6 +113,10 @@ export default function BCH() {
               <a href="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png">
               <img src="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png" className="job-img-item" /></a>
             </div>
+
+            <ul className='case-study-sub'>
+              <span className="light-cyan">Brand Identity and User Experience</span>
+            </ul>
 
             <p>
               The Boston Children's Hospital public facing website's styling and identity was being updated during the beginning of my project. I had to consider 

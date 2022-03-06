@@ -110,7 +110,8 @@ export default class Home extends React.Component {
               profile (login, logout, account) flow. I constantly considered responsive web design, typography, 
               layout, developer workload, designing components, accessibility, and my audience while 
               making design decisions. I conducted research to inform some of my design decisions.
-              <br />
+            </p>
+            <p>
               I supported multiple other projects by making graphic assets such as high fidelity prototypes, icons, splash screens, 
               visual direction, and user experiences. I presented my work and design decisions to my clients, team, and developers.
 
@@ -157,9 +158,67 @@ export default class Home extends React.Component {
               <span className="light-cyan">Realized</span>
               <li>Two text booklet as accordion, site signage, delivery van</li>
             </ul>
+
+            <p className="job-desc">
+            I was constantly thinking about graphic design principles and creating a coherent brand identity 
+            that fit in with the environment and culture of Angkor in Cambodia. 
+            </p>
+
             <div className="slide-spacing"></div>
 
           </div>
+
+          <div className="job">
+            <h2>Imprivata</h2>
+            <p className="job-position">Web Developer & Designer, Imprivata</p>
+            <p>January 2020 – September 2020</p>
+
+            <div className="imprivata-glide job-img-list">
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div className="glide__arrows" data-glide-el="controls">
+                <button className="" data-glide-dir="<">prev</button>
+                <button className="" data-glide-dir=">">next</button>
+                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
+
+              </div>
+            </div>
+
+            <p className="job-desc">
+              My main responsibility consisted of redesigning and implementing those designs for Imprivata's public facing website during a complete brand identity and visual and functional website update. 
+              By the end of my co-op, I had helped reshape and implement many of 
+              the components and page layouts/functionalities, held my responsibility 
+              as a team member, and trusted my coworkers so that we could release a 
+              project impossible for one person. Thanks so much to 
+              my manager Josh Thayer and the team, I grew technically and as a team member while we 
+              released a successful product with limited budget and a 3 month delay during COVID-19.
+            {/* My internship spanned most of a CMS website redesign and migration.
+            At the end of my co-op, I had helped reshape and implement many of 
+            the components and page layouts/functionalities, held my responsibility 
+            as a team member, and trusted my coworkers so that we could release a 
+            project impossible for one person. I feel like I have many more tools 
+            to make great software and websites for the future! Thanks so much to 
+            my manager Josh and the team. */}
+            </p>
+          </div>
+
+          <div className="slide-spacing"></div>
 
           <div className="job course">
             <h2>Information Design <span className="class-type">Class</span></h2>
@@ -254,51 +313,6 @@ export default class Home extends React.Component {
           </div>
 
           <div className="job">
-            <h2>Imprivata</h2>
-            <p className="job-position">Web Developer & Designer, Imprivata</p>
-            <p>January 2020 – September 2020</p>
-
-            <div className="imprivata-glide job-img-list">
-              <div className="glide__track" data-glide-el="track">
-                <ul className="glide__slides">
-                  <li className="glide__slide">
-                    <a href="/imprivata/d7-home.jpg"><img src="/imprivata/d7-home.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/imprivata/d7-vid.jpg"><img src="/imprivata/d7-vid.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/imprivata/d8-home.jpg"><img src="/imprivata/d8-home.jpg" className="job-img-item" /></a>
-                  </li>
-                  <li className="glide__slide">
-                    <a href="/imprivata/d8-product-page.jpg"><img src="/imprivata/d8-product-page.jpg" className="job-img-item" /></a>
-                  </li>
-                </ul>
-              </div>
-
-
-              <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
-                <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-
-              </div>
-            </div>
-
-            <p className="job-desc">
-            My internship spanned most of a CMS website redesign and migration.
-            At the end of my co-op, I had helped reshape and implement many of 
-            the components and page layouts/functionalities, held my responsibility 
-            as a team member, and trusted my coworkers so that we could release a 
-            project impossible for one person. I feel like I have many more tools 
-            to make great software and websites for the future! Thanks so much to 
-            my manager Josh and the team.
-            </p>
-          </div>
-
-          <div className="slide-spacing"></div>
-
-          <div className="job">
               <h2>FHMemphis.com</h2>
               <p>Web Developer</p>
               <p>September 2019 – September 2020</p>
@@ -336,8 +350,8 @@ export default class Home extends React.Component {
           <div className="slide-spacing"></div>
 
           <div className="job course">
-            <h2>Typography 2<span className="class-type">Class</span></h2>
-            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <h2>Typography 2 <span className="class-type">Class</span></h2>
+            <p className="job-position">Create a coherent magazine with unique spreads</p>
             <p>July 2021 – September 2021</p>
 
             <div className="id-glide job-img-list">
