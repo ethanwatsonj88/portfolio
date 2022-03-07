@@ -93,7 +93,8 @@ export default function BCH() {
 
             <p>
               I redesigned the side status bar, considering value, hierarchy, and developer workload. The sidebar was not the main focus of the pages, so I got rid of the saturated background to signify that. 
-              On top of that, I adjusted the text hierarchy to match the overall web application, and I placed it at the bottom of the page in mobile view to focus on what the user needed to do, which was completing forms.
+              On top of that, I adjusted the text hierarchy to match the overall web application, and I placed it at the bottom of the page in mobile view to focus on what the user needed to do, which was completing forms. 
+              I paid attention to spacing and font weights to help users read navigate the sidebar more easily.
             {/* I created the front-end architecture, coding, & visual redesign of a 
             public facing react application. My team helped every week, and I 
             had to keep in mind the mobile version of the web app I was 
