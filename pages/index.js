@@ -421,11 +421,12 @@ export default class Home extends React.Component {
 
           <em><ul className="software-list">
 
-            <li className="software-item design">Adobe InDesign</li>
             <li className="software-item design">Figma</li>
+            <li className="software-item design">Sketch</li>
+            <li className="software-item design">Adobe XD</li>
+            <li className="software-item design">Adobe InDesign</li>
             <li className="software-item design">Adobe Illustrator</li>
             <li className="software-item design">Adobe Photoshop</li>
-            <li className="software-item design">Adobe XD</li>
 
             <li className="software-item develop">Javascript ES6</li>
             <li className="software-item develop">Patternlab & Storybook</li>
