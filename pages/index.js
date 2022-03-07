@@ -15,7 +15,10 @@ export default class Home extends React.Component {
     new Glide('.fh-glide').mount()
     new Glide('.bch-glide').mount()
     new Glide('.id-glide').mount()
-    new Glide('.type3-glide').mount()
+    new Glide('.type3-glide').mount(
+    new Glide('.type2-glide').mount()
+
+    )
   }
   render() {
     return (
@@ -354,20 +357,23 @@ export default class Home extends React.Component {
             <p className="job-position">Create a coherent magazine with unique spreads</p>
             <p>July 2021 – September 2021</p>
 
-            <div className="id-glide job-img-list">
+            <div className="type2-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_01.jpg" className="job-img-item" /></a>
+                    <a href="/type2/magazine.pdf"><img src="/type2/magazine/magazine-2.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_02.jpg" className="job-img-item" /></a>
+                    <a href="/type2/magazine.pdf"><img src="/type2/magazine/magazine-3.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_war-pains.pdf"><img src="/information-design/ethan-watson_war-pains_Page_13.jpg" className="job-img-item" /></a>
+                    <a href="/type2/magazine.pdf"><img src="/type2/magazine/magazine-4.png" className="job-img-item" /></a>
                   </li>
                   <li className="glide__slide">
-                    <a href="/information-design/ethan-watson_snowing-on-broadstreet.pdf"><img src="/information-design/ethan-watson_snowing-on-broadstreet.jpg" className="job-img-item" /></a>
+                    <a href="/type2/magazine.pdf"><img src="/type2/magazine/magazine-5.png" className="job-img-item" /></a>
+                  </li>
+                  <li className="glide__slide">
+                    <a href="/type2/longfellowpoem-for-daryl.pdf"><img src="/type2/longfellowpoem-for-daryl/longfellowpoem-for-daryl-4.png" className="job-img-item" /></a>
                   </li>
                 </ul>
               </div>
@@ -381,18 +387,14 @@ export default class Home extends React.Component {
             </div>
 
             <p className="job-desc">
-              I created two exhibits:
+              I created two projects:
             </p>
             <ul>
-              <span className="light-cyan">War Pains</span>
-              <li>Making sense of public data sets, I organized information in excel and 
-              offered a narrative: Does war impacts a country's ability to provide safe 
-              water to its citizens? I created an identity using illustrator, and crafted 
-              my own physical booklet.</li>
+              <span className="light-cyan">Objekt Magazine Design</span>
+              <li>Considering my images, I created coherent magazine spreads. My main goal was to mimic the feeling of wood while using graphical elements throughout the spreads for type hierarchy.</li>
               <br />
-              <span className="light-cyan">Snowing on Broad Street</span>
-              <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
-              introduced more supporting information to present another story.</li>
+              <span className="light-cyan">Two Voices in One Context</span>
+              <li>When trying to present two pieces of information next to each other, I designed a few spreads that considers the two different poems in one space. I considered placement, type choice, and hierarchy.</li>
             </ul>
 
             <div className="slide-spacing"></div>
