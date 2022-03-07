@@ -39,7 +39,7 @@ export default class Home extends React.Component {
           <Title />
 
           <p className="description">
-            I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities.
+            I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities. I will be graduating May 2022 with a BS from Northeastern in Computer Science + Graphic Design. 
 
             {/*Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
             to new technology, supporting a senior developer, and being effective for my company and its customers.*/}
@@ -208,9 +208,13 @@ export default class Home extends React.Component {
               By the end of my co-op, I had helped reshape and implement many of 
               the components and page layouts/functionalities, held my responsibility 
               as a team member, and trusted my coworkers so that we could release a 
-              project impossible for one person. Thanks so much to 
-              my manager Josh Thayer and the team, I grew technically and as a team member while we 
-              released a successful product with limited budget and a 3 month delay during COVID-19.
+              project impossible for one person. 
+            </p>
+            <p>
+              One of the major design challenges I worked on were seamlessly integrating media 
+              such as images and videos in lists and pages. Another design challenge I worked on was 
+              the typography of components such as the nav bar, template pages, and CTA image blocks on 
+              many of the high visibility pages.
             {/* My internship spanned most of a CMS website redesign and migration.
             At the end of my co-op, I had helped reshape and implement many of 
             the components and page layouts/functionalities, held my responsibility 
