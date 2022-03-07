@@ -267,6 +267,7 @@ export default class Home extends React.Component {
               <span className="light-cyan">Snowing on Broad Street</span>
               <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
               introduced more supporting information to present another story.</li>
+              <li>I thought about how to visualize information isometrically while still being accurate information.</li>
             </ul>
 
             <div className="slide-spacing"></div>
