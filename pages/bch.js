@@ -19,7 +19,7 @@ export default function BCH() {
           <Navbar />
 
           <div className="job">
-            <h2>Redesign a form and user profile web application while bridging new hospital styles 
+            <h2>My Project: Redesign a form and user profile web application while bridging new hospital styles 
               and the existing mobile app.</h2>
 
             <a href="/bch/1/second-run_never-coded-but-can.png">
