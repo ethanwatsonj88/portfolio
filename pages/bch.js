@@ -136,6 +136,17 @@ export default function BCH() {
               <img src="/bch/some-example-prototypes/hospital-styling.png" className="job-img-item" /></a>
             </div>
 
+            <div className="slide-spacing"></div>
+
+            <ul className='case-study-sub'>
+              <span className="light-cyan">Next Steps</span>
+            </ul>
+
+            <p>
+              In retrospect, I would have liked to explore A/B testing on the CTA buttons. We did not have a content specialist, just the existing content from before. 
+              I think it would be worth the effort to research more about CTAs to increase completion and the overall user process in our web application.
+            </p>
+
           </div>
 
         </main>
