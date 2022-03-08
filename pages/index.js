@@ -119,12 +119,6 @@ export default class Home extends React.Component {
               I supported multiple other projects by making graphic assets such as high fidelity prototypes, icons, splash screens, 
               visual direction, and user experiences. I presented my work and design decisions to my clients, team, and developers.
 
-            {/* I created the front-end architecture, coding, & visual redesign of a 
-            public facing react application. My team helped every week, and I 
-            had to keep in mind the mobile version of the web app I was 
-            developing and designing. I improved and tested multiple SCSS 
-            structures, React components, and Angular templates. I designed and 
-            prototyped mockups in Figma for two teams and presented to clients. */}
             </p>
 
             <div className="slide-spacing"></div>
