@@ -50,6 +50,7 @@ export default class Home extends React.Component {
           <div className="job">
             <h2><a href="/bch">UI/UX Designer, Boston Children's Hospital [More]</a></h2>
             <p>January 2021 – July 2021</p>
+            <p>I used Figma, Adobe Illustrator, SCSS, + more</p>
 
             <div className="bch-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -111,7 +112,7 @@ export default class Home extends React.Component {
             <p className="job-desc">
               I redesigned a web application that had 14 unique forms and a user 
               profile (login, logout, account) flow. I constantly considered responsive web design, typography, 
-              layout, developer workload, designing components, accessibility, and my audience while 
+              layout, developer workload, component design, accessibility, and my audience while 
               making design decisions. I conducted research to inform some of my design decisions.
             </p>
             <p>
@@ -135,6 +136,7 @@ export default class Home extends React.Component {
             <h2>Graphic Design Synthesis <span className="class-type">Class</span></h2>
             <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
             <p>September 2021 – December 2021</p>
+            <p>I used Adobe InDesign, Illustrator, Figma, Printing/Craftmanship, + more</p>
 
             <div className="glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -175,6 +177,7 @@ export default class Home extends React.Component {
             <h2>Imprivata</h2>
             <p className="job-position">Web Developer & Designer, Imprivata</p>
             <p>January 2020 – September 2020</p>
+            <p>I used Figma, Zeplin, Illustrator, Photoshop, InDesign, + more</p>
 
             <div className="imprivata-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
