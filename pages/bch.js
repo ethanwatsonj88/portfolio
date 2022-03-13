@@ -17,9 +17,10 @@ export default function BCH() {
           {/* <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>inspired by digital brutalism.</em></p> */}
 
           <Navbar />
+          <Title />
 
           <div className="job">
-            <h2>Redesign a form and user profile web application while bridging new hospital styles 
+            <h2><span>Objective</span> <br/>Redesign a form and user profile web application while bridging new hospital styles 
               and the existing mobile app.</h2>
 
             <a href="/bch/1/second-run_never-coded-but-can.png">
@@ -32,14 +33,14 @@ export default function BCH() {
 
             <p className="subtitle">Challenges + Solutions: Redesigning unique form pages</p>
 
+            <ul className='case-study-sub'>
+              <p><span>Single Column Form UX Research</span></p>
+            </ul>
+
             <div className="bch-glide job-img-list">
               <a href="/bch/1/first-run_i-coded.png">
               <img src="/bch/1/first-run_i-coded.png" className="job-img-item sub-page" /></a>
             </div>
-
-            <ul className='case-study-sub'>
-              <p><span>Single Column Form UX Research</span></p>
-            </ul>
 
             <p className="job-desc">
               One implementation I presented to my team and implemented was single column forms and adjusting typography for input fields. 
@@ -56,14 +57,14 @@ export default function BCH() {
 
             <div className="slide-spacing"></div>
 
+            <ul className='case-study-sub'>
+              <p><span>Input Field UX Research + Type Hierarchy</span></p>
+            </ul>
+
             <div className="bch-glide job-img-list">
               <a href="/bch/1/input-research.png">
               <img src="/bch/1/input-research.png" className="job-img-item" /></a>
             </div>
-
-            <ul className='case-study-sub'>
-              <p><span>Input Field UX Research + Type Hierarchy</span></p>
-            </ul>
 
             <p>
               I also decided to adjust the hierarchy of the page, especially input fields. I chose to keep 
@@ -82,14 +83,14 @@ export default function BCH() {
 
             <div className="slide-spacing"></div>
 
+            <ul className='case-study-sub'>
+              <p><span>Complex Component Design Decisions</span></p>
+            </ul>
+
             <div className="bch-glide job-img-list">
               <a href="/bch/1/old-sidebar.png">
               <img src="/bch/1/old-sidebar.png" className="job-img-item" /></a>
             </div>
-
-            <ul className='case-study-sub'>
-              <p><span>Complex Component Design Decisions</span></p>
-            </ul>
 
             <p>
               I redesigned the side status bar, considering value, hierarchy, and developer workload. The sidebar was not the main focus of the pages, so I got rid of the saturated background to signify that. 
@@ -110,14 +111,14 @@ export default function BCH() {
 
             <div className="slide-spacing"></div>
 
+            <ul className='case-study-sub'>
+              <p><span>Brand Identity and User Experience</span></p>
+            </ul>
+
             <div className="bch-glide job-img-list">
               <a href="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png">
               <img src="/bch/some-example-prototypes/attempt-to-typography-hierarchy-improvements.png" className="job-img-item" /></a>
             </div>
-
-            <ul className='case-study-sub'>
-              <p><span>Brand Identity and User Experience</span></p>
-            </ul>
 
             <p>
               The Boston Children's Hospital public facing website's styling and identity was being updated during the beginning of my project. I had to consider 
