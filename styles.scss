@@ -121,6 +121,36 @@ a:hover {
   to {opacity: inherit;}
 }
 
+// img {
+//   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+//   filter: grayscale(100%);
+
+//   animation-name: img-hover-out;
+//   animation-duration: .2s;
+//   animation-fill-mode: forwards;
+//   animation-timing-function: ease-out;
+// }
+
+// img:hover {
+//   -webkit-filter: none; /* Safari 6.0 - 9.0 */
+//   filter: none;
+
+//   animation-name: img-hover;
+//   animation-duration: .2s;
+//   animation-fill-mode: forwards;
+//   animation-timing-function: ease-out;
+// }
+
+// @keyframes img-hover {
+//   from {filter: grayscale(100%);}
+//   to {filter: none;}
+// }
+
+// @keyframes img-hover-out {
+//   from {filter: none;}
+//   to {filter: grayscale(100%);}
+// }
+
 .title {
   margin: 0;
   margin-top: 8rem;

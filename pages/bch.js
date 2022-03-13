@@ -30,7 +30,7 @@ export default function BCH() {
               I constantly thought about implementation workload, responsive design, accessibility, 
               and identity.</p>
 
-            <h2>Challenges + Solutions: Redesigning unique form pages</h2>
+            <p className="subtitle">Challenges + Solutions: Redesigning unique form pages</p>
 
             <div className="bch-glide job-img-list">
               <a href="/bch/1/first-run_i-coded.png">
@@ -38,7 +38,7 @@ export default function BCH() {
             </div>
 
             <ul className='case-study-sub'>
-              <span className="light-cyan">Single Column Form UX Research</span>
+              <p><span>Single Column Form UX Research</span></p>
             </ul>
 
             <p className="job-desc">
@@ -62,7 +62,7 @@ export default function BCH() {
             </div>
 
             <ul className='case-study-sub'>
-              <span className="light-cyan">Input Field UX Research + Type Hierarchy</span>
+              <p><span>Input Field UX Research + Type Hierarchy</span></p>
             </ul>
 
             <p>
@@ -88,7 +88,7 @@ export default function BCH() {
             </div>
 
             <ul className='case-study-sub'>
-              <span className="light-cyan">Complex Component Design Decisions</span>
+              <p><span>Complex Component Design Decisions</span></p>
             </ul>
 
             <p>
@@ -116,7 +116,7 @@ export default function BCH() {
             </div>
 
             <ul className='case-study-sub'>
-              <span className="light-cyan">Brand Identity and User Experience</span>
+              <p><span>Brand Identity and User Experience</span></p>
             </ul>
 
             <p>
@@ -140,7 +140,7 @@ export default function BCH() {
             <div className="slide-spacing"></div>
 
             <ul className='case-study-sub'>
-              <span className="light-cyan">Next Steps</span>
+              <p><span>Next Steps</span></p>
             </ul>
 
             <p>
