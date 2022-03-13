@@ -1,30 +1,42 @@
-@font-face {
-  /*font-family: "Volkorn";
-  src: url("public/Vollkorn-VariableFont_wght.ttf");*/
-  font-family: "Univers";
-  src: url("public/Univers.otf");
-}
-
-@font-face {
-  font-family: "Peignot";
-  src: url("public/Peignot.ttf");
-}
-
 body {
   padding: 0;
   margin: 0;
   min-width: 500px;
-  font-family: Univers, sans-serif, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.125rem;
 }
 
 p, li {
-  font-family: linotype-sabon;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: .02rem;
   line-height: 140%;
+  span {
+    font-weight: 700;
+  }
+}
+
+.glides {
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .02rem;
+  font-size: 1.125rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  padding-right: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    color: #0000EE;
+
+    animation-name: link-hover;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
+
 }
 
 .light-cyan {
@@ -112,29 +124,14 @@ a:hover {
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 9rem;
-  font-family: Peignot;
-  background-color: #1b00f8;
-  color:  white;
 
-  a:hover {
-    color: #0000EE;
-
-    animation-name: black-link-hover;
-    animation-duration: .2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
+  a {
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 4px solid black;
   }
 
-  @keyframes black-link-hover {
-    from {color: inherit;}
-    to {color: black;}
-  }
-
-  @keyframes black-link-hover-out {
-    from {color: black;}
-    to {opacity: inherit;}
-  }
+  
 }
 
 .class-type {
@@ -155,7 +152,7 @@ a:hover {
 }
 
 .navbar-item {
-  font-size: 2.4rem;
+  font-size: 1.2rem;
 }
 
 .job-img-header {
@@ -238,12 +235,31 @@ h1 {
 }
 
 h2 {
-  font-family: Univers;
-  font-size: 2.4rem;
-  border-top: .3rem solid #1b00f8;
+  font-size: 1.2rem;
   width: fit-content;
   font-weight: inherit;
   padding-top: 1rem;
+
+  span {
+    font-weight: 700;
+  }
+  
+  a {
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.subtitle {
+  border-bottom: 4px solid black;
+  letter-spacing: .2rem;
+  font-size: .9rem;
+}
+
+.sub-subtitle {
+  letter-spacing: .2rem;
+  font-size: .9rem;
 }
 
 .slide-spacing{
@@ -255,16 +271,13 @@ h2 {
 }
 
 .develop {
-  font-family: linotype-sabon;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  color: #1b00f8;
   width: fit-content;
 }
 
 .design {
-  font-family: linotype-sabon;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: black;
   width: fit-content;

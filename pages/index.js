@@ -16,7 +16,7 @@ export default class Home extends React.Component {
     new Glide('.bch-glide').mount()
     new Glide('.id-glide').mount()
     new Glide('.type3-glide').mount(
-    new Glide('.type2-glide').mount()
+    // new Glide('.type2-glide').mount()
 
     )
   }
@@ -27,8 +27,9 @@ export default class Home extends React.Component {
           <title>Ethan Watson</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://use.typekit.net/ntt5nzc.css" />
-
-        </Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>        </Head>
 
         <main>
 
@@ -39,7 +40,8 @@ export default class Home extends React.Component {
           <Title />
 
           <p className="description">
-            I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities. I will be graduating May 2022 with a BS from Northeastern in Computer Science + Graphic Design. 
+            I am a Product/UI/UX Designer able to solve challenges and communicate my design decisions. I care about accessibility, functionality, and collaboration when designing.
+            {/* I am a UI/UX Designer experienced in Front-end Development, Graphic Design, Typography, and Designing Identities. I will be graduating May 2022 with a BS from Northeastern in Computer Science + Graphic Design.  */}
 
             {/*Junior Front-end Web Designer & Full Stack Developer who is comfortable adapting 
             to new technology, supporting a senior developer, and being effective for my company and its customers.*/}
@@ -48,9 +50,9 @@ export default class Home extends React.Component {
           <div className="slide-spacing"></div>
 
           <div className="job">
-            <h2><a href="/bch">UI/UX Designer, Boston Children's Hospital [More]</a></h2>
-            <p>January 2021 – July 2021</p>
-            <p>I used Figma, Adobe Illustrator, SCSS, + more</p>
+            <p className='subtitle'>Work Case Study</p>
+            <h2><a href="/bch"><span>UI/UX Designer</span> @ Boston Children's Hospital &gt;&gt;</a></h2>
+            <p>January 2021 – July 2021  |  Figma, Adobe Illustrator, SCSS, + more</p>
 
             <div className="bch-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -102,8 +104,8 @@ export default class Home extends React.Component {
 
 
               <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
+                <button className="glides" data-glide-dir="<">&lt;</button>
+                <button className="glides" data-glide-dir=">">&gt;</button>
                 <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
 
               </div>
@@ -127,10 +129,9 @@ export default class Home extends React.Component {
 
           {/*if course class, its a school class. eventually toggle these posts*/}
           <div className="job course">
-            <h2>Graphic Design Synthesis <span className="class-type">Class</span></h2>
-            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
-            <p>September 2021 – December 2021</p>
-            <p>I used Adobe InDesign, Illustrator, Figma, Printing/Craftmanship, + more</p>
+            <p className='subtitle'>Class about Designing a Brand Identity for a UNESCO World Heritage Site</p>
+            <h2><span>Graphic Design Synthesis</span></h2>
+            <p>September 2021 – December 2021  |  Adobe InDesign, Illustrator, Figma, Printing/Craftmanship, + more</p>
 
             <div className="glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -147,14 +148,14 @@ export default class Home extends React.Component {
             All items are included on my design guide. I created: 
             </p>
             <ul>
-              <span className="light-cyan">Printed</span>
+              <span className="sub-subtitle">Printed</span>
               <li>A Series of ads for the Newyorker, business card, letterhead, information sheet, 
               envelope 10</li>
               <br />
-              <span className="light-cyan">Digital</span>
+              <span className="sub-subtitle">Digital</span>
               <li>Desktop and mobile website mockup, app icon</li>
               <br />
-              <span className="light-cyan">Realized</span>
+              <span className="sub-subtitle">Realized</span>
               <li>Two text booklet as accordion, site signage, delivery van</li>
             </ul>
 
@@ -168,10 +169,9 @@ export default class Home extends React.Component {
           </div>
 
           <div className="job">
-            <h2>Imprivata</h2>
-            <p className="job-position">Web Developer & Designer, Imprivata</p>
-            <p>January 2020 – September 2020</p>
-            <p>I used Figma, Zeplin, Illustrator, Photoshop, InDesign, + more</p>
+          <p className='subtitle'>Work Case Study</p>
+            <h2><span>Web Developer & Designer</span> @ Imprivata</h2>
+            <p>January 2020 – September 2020  |  Figma, Zeplin, Illustrator, Photoshop, InDesign, + more</p>
 
             <div className="imprivata-glide job-img-list">
               <div className="glide__track" data-glide-el="track">
@@ -193,8 +193,8 @@ export default class Home extends React.Component {
 
 
               <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
+                <button className="glides" data-glide-dir="<">&lt;</button>
+                <button className="glides" data-glide-dir=">">&gt;</button>
                 <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
 
               </div>
@@ -225,8 +225,8 @@ export default class Home extends React.Component {
           <div className="slide-spacing"></div>
 
           <div className="job course">
-            <h2>Information Design <span className="class-type">Class</span></h2>
-            <p className="job-position">Design a brand identity for a UNESCO World Heritage Site</p>
+            <p className='subtitle'>Class about Visualizing Information through Design + Story</p>
+            <h2><span>Information Design</span></h2>
             <p>September 2021 – December 2021</p>
 
             <div className="id-glide job-img-list">
@@ -248,8 +248,8 @@ export default class Home extends React.Component {
               </div>
 
               <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
+                <button className="glides" data-glide-dir="<">&lt;</button>
+                <button className="glides" data-glide-dir=">">&gt;</button>
                 <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
 
               </div>
@@ -259,13 +259,13 @@ export default class Home extends React.Component {
               I created two exhibits:
             </p>
             <ul>
-              <span className="light-cyan">War Pains</span>
+              <span className="sub-subtitle">War Pains</span>
               <li>Making sense of public data sets, I organized information in excel and 
               offered a narrative: Does war impacts a country's ability to provide safe 
               water to its citizens? I created an identity using illustrator, and crafted 
               my own physical booklet.</li>
               <br />
-              <span className="light-cyan">Snowing on Broad Street</span>
+              <span className="sub-subtitle">Snowing on Broad Street</span>
               <li>Utilizing an isometric perspective, I remixed John Snow's Broad Street map and 
               introduced more supporting information to present another story.</li>
               <li>I thought about how to visualize information isometrically while still being accurate information.</li>
@@ -276,8 +276,8 @@ export default class Home extends React.Component {
           </div>
 
           <div className="job course">
-            <h2>Typography 3 <span className="class-type">Class</span></h2>
-            <p className="job-position">Construct a text typeface</p>
+            <p className='subtitle'>Class of Directed Typeface Creation</p>
+            <h2><span>Typography 3</span></h2>
             <p>September 2021 – December 2021</p>
 
             <div className="type3-glide job-img-list">
@@ -298,8 +298,8 @@ export default class Home extends React.Component {
 
 
               <div className="glide__arrows" data-glide-el="controls">
-                <button className="" data-glide-dir="<">prev</button>
-                <button className="" data-glide-dir=">">next</button>
+                <button className="glides" data-glide-dir="<">&lt;</button>
+                <button className="glides" data-glide-dir=">">&gt;</button>
                 <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
 
               </div>
@@ -318,9 +318,9 @@ export default class Home extends React.Component {
           </div>
 
           <div className="job">
-              <h2>FHMemphis.com</h2>
-              <p>Web Developer</p>
-              <p>September 2019 – September 2020</p>
+            <p className='subtitle'>Freelance Designer + Developer</p>
+            <h2><span>Web Designer + Developer</span> @ FHMemphis.com</h2>
+            <p>September 2019 – September 2020</p>
 
               <div className="fh-glide job-img-list">
                 <div className="glide__track" data-glide-el="track">
@@ -338,8 +338,8 @@ export default class Home extends React.Component {
                 </div>
 
                 <div className="glide__arrows" data-glide-el="controls">
-                  <button className="" data-glide-dir="<">prev</button>
-                  <button className="" data-glide-dir=">">next</button>
+                  <button className="glides" data-glide-dir="<">&lt;</button>
+                  <button className="glides" data-glide-dir=">">&gt;</button>
                   <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
                 </div>
               </div>
@@ -352,7 +352,7 @@ export default class Home extends React.Component {
               </p>
           </div>
 
-          <div className="slide-spacing"></div>
+          {/* <div className="slide-spacing"></div>
 
           <div className="job course">
             <h2>Typography 2 <span className="class-type">Class</span></h2>
@@ -401,9 +401,9 @@ export default class Home extends React.Component {
 
             <div className="slide-spacing"></div>
 
-          </div>
+          </div> */}
 
-          <div className="job">
+          {/* <div className="job">
               <h2>Khoury College</h2>
               <p>Graphic Designer, Khoury College of Computer Science at Northeastern University</p>
               <p>January 2019 – August 2019</p>
@@ -412,9 +412,9 @@ export default class Home extends React.Component {
                 <a href="/khoury/consider-this-mscs.png"><img src="/khoury/consider-this-mscs.png" className="job-img-item" /></a>
               </div>
               <p data-glide-dir="" className="disclaimer-left" style={{cursor: 'default'}}><em><span style={{color: '#6EB7F5'}}>*</span>click image to view</em></p>
-          </div>
+          </div> */}
 
-          <div className="slide-spacing"></div>
+          <div className="slide-spacing"></div> 
 
           <em><ul className="software-list">
 
@@ -429,7 +429,9 @@ export default class Home extends React.Component {
             <li className="software-item develop">Patternlab & Storybook</li>
             <li className="software-item develop">Nodejs</li>
             <li className="software-item develop">Reactjs</li>
-            <li className="software-item develop">Sass/Scss</li>
+            <li className="software-item develop">Reactjs</li>
+            <li className="software-item develop">Angular</li>
+            <li className="software-item develop">SCSS</li>
             <li className="software-item develop">MySQL/Postgres</li>
             <li className="software-item develop">PHP/twig</li>
             <li className="software-item develop">Drupal/CMS</li>
@@ -442,15 +444,10 @@ export default class Home extends React.Component {
             <li className="software-item design">Procreate</li>
             <li className="software-item design">Cinema 4D</li>
             <li className="software-item design">Unity</li>
-            <li className="software-item design">FL Studio - Rap & Game music production</li>
+            <li className="software-item design">FL Studio</li>
 
           </ul></em>
-
-          <div className="develop">~Develop~</div>
-          <div className="design">~Design~</div>
-
         </main>
-        
       </div>
     )
   }
