@@ -33,7 +33,7 @@ export default class Home extends React.Component {
 
         <main>
 
-          <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>inspired by digital brutalism.</em></p>
+          {/* <p className="disclaimer"><em><span style={{color: '#6EB7F5'}}>*</span>inspired by digital brutalism.</em></p> */}
 
           <Navbar />
 
